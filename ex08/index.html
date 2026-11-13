@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EX08 - Product Objects</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<h1>Catálogo de produtos</h1>
+        <label for="pesquisa">Pesquisar por nome:</label>
+        <input type="text" id="pesquisa" placeholder="Ex.: rato">
+        <label for="categoria">Filtrar por categoria:</label>
+        <select id="categoria">
+            <option value="todas">Todas</option>
+            <option value="Informática">Informática</option>
+            <option value="Acessórios">Acessórios</option>
+        </select>
+        <button id="mostrar">Pesquisar e filtrar</button>
+        <button id="ordenar">Ordenar por preço</button>
+        <section id="resultado"></section>
+        <script src="script.js"></script>
+    </body>
+</html>

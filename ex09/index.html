@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>EX09 - Dynamic Table</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+<h1>Tabela dinâmica de estudantes</h1>
+        <form id="formulario">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" required>
+            <label for="curso">Curso:</label>
+            <input type="text" id="curso" required>
+            <button type="submit">Adicionar estudante</button>
+        </form>
+        <table>
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>Curso</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="corpo-tabela"></tbody>
+        </table>
+        <script src="script.js"></script>
+    </body>
+</html>
